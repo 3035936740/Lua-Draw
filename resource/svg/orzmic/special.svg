@@ -1,0 +1,69 @@
+<svg version="1.1"
+  baseProfile="full"
+  width="{0}" height="{1}">
+    <!-- 背景图 -->
+    <image x="0" y="0" transform="translate(-{15}px, 0px)" width="{16}px" height="{17}" href="{2}"/>
+    <rect x="0" y="0" width="100%" height="100%" style="fill: black;fill-opacity: 0.50;"/>
+    
+    <!-- 角色 -->
+    <image x="53px" y="1px" width="733px" height="779px" href="{3}"/>
+    <rect x="476px" y="428px" width="883px" height="218px" fill="black" fill-opacity="0.45"/>
+
+    <!-- 角色对话 -->
+    <text transform="translate(494,483)" fill="white" font-size="35px" font-family="MiSans Medium">
+	  {4}
+    </text>
+    <text transform="translate(1125,626)" fill="white" font-size="40px" font-family="Geometos">
+        DIALOG
+    </text>
+    <image x="1303px" y="590px" width="40px" height="40px" href="resource/orzmic/dialog-corner.png"/>
+    
+    <!-- orzmic logo -->
+    <image x="1468px" y="377px" width="1027px" height="365px" href="resource/orzmic/orzmic-logo.png"/>
+
+    <!-- coin -->
+    <image x="2426px" y="58px" width="48px" height="48px" href="resource/orzmic/coin.png"/>
+    <text x="2412px" y="100px" fill="white" font-size="40px" text-anchor="end" font-family="MiSans Medium">
+        {13}
+    </text>
+
+    <!-- USERDATA -->
+    <rect x="1070px" y="121px" width="1408px" height="218px" fill="black" fill-opacity="0.60"/>
+    <text x="1547px" y="267px" fill="white" font-size="85px" text-anchor="middle" font-family="MiSans Medium">
+        {5}
+    </text>
+    <!-- 分割线 -->
+    <image x="2013px" y="167px" width="8px" height="130px" href="resource/orzmic/divider-vertical.png"/>
+    <!-- rating相关(包含sp rating) -->
+    <text x="2070px" y="215px" fill="#88f5da" font-size="48px" font-family="MiSans Medium">
+        RATING
+    </text>
+    <text x="2262px" y="218px" fill="white" font-size="56px" font-family="MiSans Medium">
+        {6}
+    </text>
+    <text x="{7}px" y="218px" fill="white" font-size="42px" font-family="MiSans Medium">
+        {8}
+    </text>
+    <text x="2070px" y="285px" fill="#aa88f5" font-size="48px" font-family="MiSans Medium">
+        SP RATING
+    </text>
+    <text x="2344px" y="286px" fill="white" font-size="56px" font-family="MiSans Medium">
+        {9}
+    </text>
+
+    <!-- 生成日期 -->
+    <text x="{10}px" y="398px" fill="white" font-size="37px" font-family="MiSans Medium">
+        {11}
+    </text>
+    <image x="{12}px" y="363px" width="42px" height="42px" href="resource/orzmic/play-particle.png"/>
+
+    <!-- special分割线 -->
+    <rect x="86px" y="807px" width="915px" height="17px" fill="white"/>
+    <rect x="1559px" y="807px" width="915px" height="17px" fill="white"/>
+    
+    <text x="1280px" y="853px" fill="white" font-size="96px" text-anchor="middle" font-family="Geometos">
+    SPECIAL
+    </text>
+    <!-- Special内容 -->
+    {14}
+</svg>

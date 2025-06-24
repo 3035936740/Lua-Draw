@@ -1,0 +1,94 @@
+<svg version="1.1"
+  baseProfile="full"
+  width="1440" height="%.0f">
+    <defs>
+      <clipPath id="avatar-parallelogram">  
+        <polygon points="39,27 198,27 159,168 0,168"/>  
+      </clipPath>
+      <clipPath id="cover-parallelogram">  
+        <polygon points="62,0 435,0 373,230 0,230"/>  
+      </clipPath> 
+      <clipPath id="lock-cover-parallelogram">  
+        <polygon points="36,0 272,0 236,144 0,144"/>  
+      </clipPath> 
+    </defs>
+    
+    <!-- 背景 -->
+    %s
+    <rect x="0" y="0" width="100%%" height="100%%" style="fill: black;fill-opacity: 0.60;"/>
+
+    <!-- 上传日期 -->
+    <polygon transform="translate(0,62)" points="0,0 494,0 476,62 0,62" style="fill: white;fill-opacity: 0.25;" />
+    <text x="238" y="104" fill="white" transform="scale(1, 0.9)" font-family="Source Han Sans CN Medium" font-size="38" text-anchor="middle" dominant-baseline="middle">
+	    Upload time: %s
+    </text>
+    <!-- 头像与边框 -->
+    %s
+    <!-- 课题模式与RKS -->
+    <image transform="translate(1292,32)" href="%s" width="138" height="73"/>
+    <text x="1362" y="60" fill="white" font-family="Source Han Sans CN Font Fix" font-size="54" text-anchor="middle" dominant-baseline="middle">
+	    %.0f
+    </text>
+    <polygon transform="translate(1228,99)" points="0,0 188,0 177,44 0,44" fill="white"/>
+    <text x="1333" y="126" fill="black" font-family="Source Han Sans CN Font Fix" font-size="50" text-anchor="middle" dominant-baseline="middle">
+	    %.2f
+    </text>
+    <text x="1068" y="128" fill="white" transform="scale(1, 0.9)" font-family="Source Han Sans CN Medium" font-size="64" text-anchor="end">
+      %s
+    </text>
+    <!-- 头像 -->
+    <polygon transform="translate(1076,18)" points="42,0 213,0 171,153 0,153" fill="#4d4d4d"/>
+    <image transform="translate(1083,-3)" href="%s" width="199" height="199" clip-path="url(#avatar-parallelogram)"/> 
+
+    <!-- 曲目统计 -->
+    <image transform="translate(14,202)" href="resource/phi/batch_record.png" width="703" height="261"/>
+    <text x="135" y="259" fill="white" font-family="Source Han Sans CN Font Fix" font-size="30" >
+      Record
+    </text>
+    <text x="116" y="317" fill="white" font-family="Source Han Sans CN Font Fix" font-size="33" >
+      Cleared
+    </text>
+    <text x="99" y="368" fill="#4795f5" font-family="Source Han Sans CN Font Fix" font-size="33" >
+      FC
+    </text>
+    <text x="81" y="420" fill="#ffff6c" font-family="Source Han Sans CN Font Fix" font-size="33" >
+      Phi
+    </text>
+    <text x="292" y="261" fill="white" font-family="Source Han Sans CN Font Fix" font-size="33" >
+      EZ
+    </text>
+    <text x="377" y="261" fill="white" font-family="Source Han Sans CN Font Fix" font-size="33" >
+      HD
+    </text>
+    <text x="484" y="261" fill="white" font-family="Source Han Sans CN Font Fix" font-size="33" >
+      IN
+    </text>
+    <text x="579" y="261" fill="white" font-family="Source Han Sans CN Font Fix" font-size="33" >
+      AT
+    </text>
+    %s
+
+    <!-- 评级统计 -->
+    <image transform="translate(666,220)" href="resource/phi/batch_statistics.png" width="900" height="218"/>
+    %s
+    <image transform="translate(739,239)" href="resource/phi/column_cross.png" width="667" height="187"/>
+
+    <!-- 偏移-78 -->
+    <image transform="translate(1343,391)" href="resource/phi/rating/uniformSize/phi_new.png" width="41" height="41"/>
+    <image transform="translate(1264,391)" href="resource/phi/rating/uniformSize/V_FC.png" width="41" height="41"/>
+    <image transform="translate(1185,391)" href="resource/phi/rating/uniformSize/V_new.png" width="41" height="41"/>
+    <image transform="translate(1106,391)" href="resource/phi/rating/uniformSize/s_new.png" width="41" height="41"/>
+    <image transform="translate(1027,391)" href="resource/phi/rating/uniformSize/a_new.png" width="41" height="41"/>
+    <image transform="translate(948,391)" href="resource/phi/rating/uniformSize/B_new.png" width="41" height="41"/>
+    <image transform="translate(869,391)" href="resource/phi/rating/uniformSize/C_new.png" width="41" height="41"/>
+    <image transform="translate(790,391)" href="resource/phi/rating/uniformSize/F_new.png" width="41" height="41"/>
+
+    <!-- rating -->
+    %s
+
+    <!-- 框(Y偏移+262) -->
+    %s
+
+    <!-- 防盗标签 -->
+    %s
+</svg>
