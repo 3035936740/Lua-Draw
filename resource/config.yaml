@@ -1,0 +1,25 @@
+log:
+  logger-name: "daily_logger"
+  filename: "logs/daily.txt"
+  hour: 2
+  minute: 30
+db:
+  sqlite:
+    local: "./localDB.db"
+temporary:
+  path: "./temp"
+lua:
+  directory: "./lua"
+server:
+  draw-mode: 1
+  # font-folder: "./resource/font"
+  generator:
+    uuid:
+      namespace: "00000000-0000-0000-0000-000000000000"
+      twepoch: 1692682323000
+      workerid: 1
+      datacenterid: 1
+  concurrency: 0
+  port: 8555
+  authorization-code: "bBjhGvsSgY6BvLbN4ZP4mHVBD9QbWc8C"
+  resource-path: "./public/"
